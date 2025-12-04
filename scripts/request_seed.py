@@ -4,7 +4,7 @@ from pathlib import Path
 
 API_URL = "https://eajeyq4r3zljoq4rpovy2nthda0vtjqf.lambda-url.ap-south-1.on.aws/"
 STUDENT_ID = "24a95a0513@aec.edu.in"   # <-- YOUR STUDENT ID
-GITHUB_REPO_URL = "https://github.com/vinay-nethala/2fa-microservice-with-docker.git"
+GITHUB_REPO_URL = "https://github.com/vinay-nethala/pki-microservice-with-docker"
 
 pub = Path("student_public.pem").read_text()
 
